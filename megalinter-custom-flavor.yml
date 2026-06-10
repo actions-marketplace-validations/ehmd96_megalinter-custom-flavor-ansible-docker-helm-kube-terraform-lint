@@ -1,0 +1,14 @@
+---
+# MegaLinter Custom Flavor configuration
+# If you update it manually, run `npx mega-linter-runner --custom-flavor-setup` to propagate updates.
+label: forge
+linters:
+  - ANSIBLE_ANSIBLE_LINT
+  - DOCKERFILE_HADOLINT
+  - KUBERNETES_HELM
+  - KUBERNETES_KUBECONFORM
+  - KUBERNETES_KUBESCAPE
+  - TERRAFORM_TERRAFORM_FMT
+  - TERRAFORM_TERRAGRUNT
+  - TERRAFORM_TERRASCAN
+  - TERRAFORM_TFLINT
