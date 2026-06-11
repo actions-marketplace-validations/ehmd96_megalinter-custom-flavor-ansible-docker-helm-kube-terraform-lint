@@ -1,0 +1,1 @@
+{"name":"v1.0.0","body":"MegaLinter custom flavor for ansible, docker, helm, k8s, terraform\n\nInclut les linters suivants : ANSIBLE_ANSIBLE_LINT, DOCKERFILE_HADOLINT, KUBERNETES_KUBECONFORM, KUBERNETES_HELM, KUBERNETES_KUBESCAPE, TERRAFORM_TFLINT, TERRAFORM_TERRASCAN, TERRAFORM_TERRAGRUNT, TERRAFORM_TERRAFORM_FMT","tag_name":"v1.0.0","target_commitish":"main"}
