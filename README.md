@@ -36,7 +36,7 @@ This custom flavor is automatically kept up to date with MegaLinter releases:
 
 3. **Available image tags**:
    - Release tags (e.g., `v9.0.0`): Built from MegaLinter releases
-   - `beta` tag: Built from branch pushes for testing
+   - `beta` tag: Built from branch pushes (including `main`) for testing
    - `latest` tag: Points to the most recent release
 
 ## Configuration requirements
