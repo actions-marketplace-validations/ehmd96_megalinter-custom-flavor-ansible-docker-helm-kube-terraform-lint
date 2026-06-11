@@ -36,7 +36,7 @@ This custom flavor is automatically kept up to date with MegaLinter releases:
 
 3. **Available image tags**:
    - Release tags (e.g., `v9.0.0`): Built from MegaLinter releases
-   - `beta` tag: Built from non-main branch pushes for testing
+   - `beta` tag: Built from branch pushes for testing
    - `latest` tag: Points to the most recent release
 
 ## Configuration requirements
@@ -63,7 +63,7 @@ To publish to Docker Hub in addition to ghcr.io, configure:
 If you need to manually trigger a build:
 
 1. **Create a GitHub release**: Creates a versioned build matching the tag name (e.g., `v9.0.0`)
-2. **Push to any branch** (except main): Builds a `beta` tagged image for testing
+2. **Push to any branch**: Builds a `beta` tagged image for testing
 3. **Manually run the workflow**: Go to Actions > Build & Push MegaLinter Custom Flavor > Run workflow
 
 See [full Custom Flavors documentation](https://megalinter.io/beta/custom-flavors/).
